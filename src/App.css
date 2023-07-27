@@ -1,0 +1,21 @@
+.image-text {
+  position: absolute;
+  top: 120px; /* Adjust the top position to place the text where you want */
+  left: 250px; /* Adjust the left position to place the text where you want */
+  color: white; /* Text color */
+  font-size: 40px; /* Font size */
+font-weight: bold;
+  padding: 10px; /* Padding around the text */
+}
+.image-logo{
+  position: absolute;
+  top: 20px; /* Adjust the top position to place the text where you want */
+  left: 50px; /* Adjust the left position to place the text where you want */
+  max-width: 100%; /* The logo will resize to its original size up to a maximum of 100% of its container */
+  height: auto;
+  color: white;
+  font-weight: bold;
+  font-size: 20px; /* 
+
+  padding: 10px; /* Padding around the text */
+}
