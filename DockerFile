@@ -1,0 +1,7 @@
+FROM node:v18.17.0 
+WORKDIR /testapp
+COPY package.json ./
+COPY package-lock.json ./
+RUN npm start
+CMD["npm","start"]
+
